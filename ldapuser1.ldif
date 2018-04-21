@@ -1,0 +1,18 @@
+# replace to your own domain name for [dc=***,dc=***] section
+dn: uid=stretch,ou=people,dc=cst,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: stretch
+sn: debian
+userPassword: {SSHA}xxxxxxxxxxxxxxxx
+loginShell: /bin/bash
+uidNumber: 3000
+gidNumber: 3000
+homeDirectory: /home/wagner
+
+dn: cn=wagner,ou=groups,dc=cst,dc=local
+objectClass: posixGroup
+cn: stretch
+gidNumber: 3000
+memberUid: wagner
