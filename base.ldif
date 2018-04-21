@@ -1,0 +1,9 @@
+# create new
+# change to your own suffix for the field [dc=cst,dc=locla]
+ dn: ou=people,dc=cst,dc=local
+objectClass: organizationalUnit
+ou: people
+
+dn: ou=groups,dc=cst,dc=local
+objectClass: organizationalUnit
+ou: groups 
