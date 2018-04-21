@@ -4,8 +4,8 @@ dn: uid=stretch,ou=people,dc=cst,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
-cn: stretch
-sn: debian
+cn: wagner
+sn: cst
 userPassword: {SSHA}xxxxxxxxxxxxxxxx
 loginShell: /bin/bash
 uidNumber: 3000
@@ -14,6 +14,6 @@ homeDirectory: /home/wagner
 
 dn: cn=wagner,ou=groups,dc=cst,dc=local
 objectClass: posixGroup
-cn: stretch
+cn: wagner
 gidNumber: 3000
 memberUid: wagner
